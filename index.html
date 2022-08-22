@@ -9,13 +9,13 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!-- Tailwind CSS CDN Link -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -25,10 +25,15 @@
   <title>Prakash Naikwadi</title>
 </head>
 
-<body style="font-family: Roboto, sans-serif;">
-  <header>
+<body style="font-family: Roboto, sans-serif;" class="bg-[#031b3a] text-[#cccccc]">
+
+  <!-- ********************************************** -->
+  <!-- Header Section -->
+  <!-- ********************************************** -->
+
+  <header class="bg-[#021227] max-w-screen-xl	mx-auto p-4">
     <nav class="">
-      <ul class="">
+      <ul style="font-family: 'Roboto Mono', monospace;" class="flex justify-around font-semibold">
         <li class="">Skills</li>
         <li class="">Projects</li>
         <li class="">Contact</li>
@@ -41,21 +46,24 @@
   <!-- Hero Section -->
   <!-- ********************************************** -->
 
-  <section class="">
-    <div class="">
-      <p class="">Hi, my name is</p>
-      <h2 class="">PRAKASH NAIKWADI.</h2>
-      <h2 class="">Front-End Developer.</h2>
-      <p class="">
+  <section class="flex min-h-screen bg-[#021227] px-16 py-4 max-w-screen-xl	mx-auto">
+    <!-- left side -->
+    <div class="w-3/5">
+      <p style="font-family: 'Roboto Mono', monospace;" class="text-[#309543] font-semibold">Hi, my name is</p>
+      <h2 class="text-6xl	font-bold text-[#cccccc] mt-7">PRAKASH NAIKWADI.</h2>
+      <h2 class="text-5xl	font-bold text-[#247032] mt-7">Front-End Developer.</h2>
+      <p class="mt-10 max-w-md	text-[#cccccc]">
         I have a Bachelor's degree majored in Computer Engineering.
         Currently I am focused on learning JavaScript Full Stack Web Development.
         I loved to build products that can be used by millions of people.
       </p>
-      <div class="">
-        <a href="#" class="">Check out My Skills !</a>
+      <div class="mt-16">
+        <a href="#skills" style="font-family: 'Roboto Mono', monospace;"
+          class="px-6 py-3 text-[#309543] border-2 border-[#309543] font-bold rounded-md">Check out My Skills !</a>
       </div>
     </div>
-    <div class="">
+    <!-- right side -->
+    <div class="w-2/5	">
       <img src="./images/hero-img-Copy.webp" alt="hero-img" class="">
     </div>
   </section>
@@ -64,78 +72,277 @@
   <!-- Skills Section -->
   <!-- ********************************************** -->
 
-  <section class="">
+  <section class="bg-[#021227] px-16 py-16 max-w-screen-xl mx-auto" id="skills">
     <div class="">
-      <div class="">
-        <div class=""></div>
-        <h2 class="">Tech Stack</h2>
-        <div class=""></div>
+      <div class="flex items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543]"></div>
+        <h2 class="text-4xl font-bold">Tech Stack</h2>
+        <div class="h-px flex-1 bg-[#309543]"></div>
       </div>
-      <!-- Skill 01 -->
-      <div class="">
-        <div class="">
-          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="">
-          <p class="">HTML</p>
+
+      <!-- skills -->
+      <div class="flex items-center justify-center gap-12" style="font-family: 'Roboto Mono', monospace;">
+
+        <!-- Skill 01 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">HTML</p>
         </div>
 
 
         <!-- Skill 02 -->
 
-        <div class="">
-          <img src="./images/icons8-css3-96.svg" alt="css icon" class="">
-          <p class="">CSS</p>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">CSS</p>
         </div>
-
 
         <!-- Skill 03 -->
 
-        <div class="">
-          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="">
-          <p class="">JavaScript</p>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">Tailwind CSS</p>
         </div>
 
 
         <!-- Skill 04 -->
 
-        <div class="">
-          <img src="./images/icons8-git-96.svg" alt="git icon" class="">
-          <p class="">Git</p>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">JavaScript</p>
         </div>
 
 
         <!-- Skill 05 -->
 
-        <div class="">
-          <img src="./images/icons8-react-80.svg" alt="react icon" class="">
-          <p class="">React</p>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">Git</p>
         </div>
-
 
       </div>
     </div>
   </section>
 
   <!-- ****************************************** -->
-  <!-- Project Section -->
+  <!-- Some Things I’ve Built Section -->
   <!-- ****************************************** -->
 
-  <section class="">
-    <div class="">
-      <div class=""></div>
-      <h2 class="">Projects</h2>
-      <div class=""></div>
+  <section class="bg-[#021227] px-16 py-16 max-w-screen-xl mx-auto">
+    <div class="flex items-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543]"></div>
+      <h2 class="text-4xl font-bold">Some Things I’ve Built</h2>
+      <div class="h-px flex-1 bg-[#309543]"></div>
     </div>
-    <div class="">
-      <!-- Project 01 -->
-      <div class="">
-        <div class="">
-          <img src="./images/project-01.png" alt="project 01 img" class="">
+
+    <!-- featured projects -->
+    <div>
+
+      <!-- featured project 00 -->
+      <div class="flex gap-12 mt-20">
+
+        <!-- left side -->
+        <div class="featured-project-img-01-div  w-1/2 cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="new-div cursor-all-scroll overflow-scroll h-[270px] w-[440px] rounded">
+            <div class="featured-project-img-01 new  transition-all	duration-500  ">
+              <img src="./images/paytm-screenshot.png" alt="project-01" class="">
+            </div>
+          </div>
         </div>
-        <div class=""></div>
+
+        <!-- right side -->
+        <div class="w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="text-end text-3xl font-bold mb-8 relative right-1/4">01. Paytm.com Clone</h2>
+          <p class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm relative right-1/4 text-[#ffffff78]">
+            This is an assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using HTML5,
+            CSS3 and Tailwind CSS. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="relative right-1/4">
+            <ul class="flex gap-4 justify-end text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-end relative right-1/4">
+            <a href="https://github.com/prakash-naikwadi/paytm-clone" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://paytm-clone-01.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 01 -->
+      <div class="flex gap-12 mt-20">
+
+        <!-- left side -->
+        <div class="featured-project-img-01-div w-1/2 cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="featured-project-img-01  transition-all	duration-500  ">
+            <img src="./images/paytm-screenshot.png" alt="project-01" class="">
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="text-end text-3xl font-bold mb-8 relative right-1/4">01. Paytm.com Clone</h2>
+          <p class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm relative right-1/4 text-[#ffffff78]">
+            This is an assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using HTML5,
+            CSS3 and Tailwind CSS. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="relative right-1/4">
+            <ul class="flex gap-4 justify-end text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-end relative right-1/4">
+            <a href="https://github.com/prakash-naikwadi/paytm-clone" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://paytm-clone-01.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 02 -->
+      <div class="flex gap-12 mt-20">
+
+        <!-- right side -->
+        <div class="w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 relative left-1/4">02. Rode.com Clone</h2>
+          <p class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm relative left-1/4 z-40 text-[#ffffff78]">
+            This is an assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using HTML5,
+            CSS3 and Tailwind CSS. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="relative left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start relative left-1/4">
+            <a href="https://github.com/prakash-naikwadi/rode-website-clone" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://rode-website-clone.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="featured-project-img-01-div w-1/2 cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="featured-project-img-01  transition-all	duration-500  ">
+            <img src="./images/rode-website-clone.png" alt="rode website clone" class="">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 03 -->
+      <div class="flex gap-12 mt-20">
+
+        <!-- left side -->
+        <div class="featured-project-img-01-div w-1/2 cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="featured-project-img-01  transition-all	duration-500  ">
+            <img src="./images/shopify.png" alt="shopify clone" class="">
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="text-end text-3xl font-bold mb-8 relative right-1/4">03. Shopify.in Clone</h2>
+          <p class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm relative right-1/4 text-[#ffffff78]">
+            This is an assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using HTML5,
+            CSS3 and Tailwind CSS. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="relative right-1/4">
+            <ul class="flex gap-4 justify-end text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-end relative right-1/4">
+            <a href="https://github.com/prakash-naikwadi/shopify-clone" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://shopify-website-clone.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- featured project 04 -->
+      <div class="flex gap-12 mt-20">
+
+        <!-- right side -->
+        <div class="w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 relative left-1/4">04. Omnifood</h2>
+          <p class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm relative left-1/4 z-40 text-[#ffffff78]">
+            A Food Delivery AI Startup's Fully Responsive website, built using HTML5, CSS3, and JavaScript. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="relative left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start relative left-1/4">
+            <a href="https://github.com/prakash-naikwadi/omnifood-start-up-html-css-js" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://omnifood-ai-startup.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <!-- left side -->
+        <div class="featured-project-img-01-div w-1/2 cursor-all-scroll overflow-scroll h-[300px] rounded">
+          <div class="featured-project-img-01  transition-all	duration-500  ">
+            <img src="./images/omnifood.png" alt="omnifood" class="">
+          </div>
+        </div>
+
       </div>
 
     </div>
-    <div class=""></div>
+
+    <!-- Honorable Mentions -->
+    <div class="mt-20">
+      <h2 class="text-center text-3xl font-semibold">Honorable Mentions</h2>
+
+      <div>
+        <!-- project 01 -->
+        <div>
+          <div>
+            <img src="" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </section>
 
 </body>

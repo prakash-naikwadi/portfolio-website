@@ -1,0 +1,146 @@
+/* ******************************** */
+/* Default Properties */
+/* ******************************** */
+
+/* --- 01 Fonts
+  - font-family: 'Roboto Slab', serif; 
+*/
+
+/* --- 02 COLORS
+
+  text-primary-colors: #3cba54 and shades of it
+  Primary:  #1877F2 
+  
+*/
+
+/* ************************************** */
+/* changing whole websites scrollbar */
+/* ************************************** */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #3cba53a5;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3cba54;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3cba5399;
+}
+
+/* ************************************** */
+/* featured project section */
+/* ************************************** */
+
+.featured-project-img-01 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(25, 254, 67, 0),
+    rgba(25, 254, 67, 0)
+  );
+
+  transition: background-image 0.5s;
+
+  position: relative;
+
+  color: #ffffff78;
+}
+
+.featured-project-img-01::before {
+  content: "";
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(25, 254, 67, 0.4),
+    rgba(25, 254, 67, 0.4)
+  );
+  transition: width 1s ease-in-out;
+}
+
+.featured-project-img-01:hover:before {
+  /* height: 0%; */
+  width: 0%;
+}
+
+/* ************************************** */
+/* hiding scrollbar of img */
+/* ************************************** */
+
+.featured-project-img-01-div::-webkit-scrollbar {
+  display: none;
+}
+
+.featured-project-img-01-div {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* test */
+
+.featured-project-img-01-div {
+  /* 
+  height: 100px;
+  width: 300px;
+  bottom: 0;
+  z-index: 100px; */
+
+  background-image: url(../images/macbook-frame.webp);
+  background-position: center;
+  background-size: cover;
+  /* padding: 25px; */
+  overflow: hidden;
+  /* top: 30px; */
+
+  /* transition: width 1s ease-in-out; */
+}
+
+.new-div {
+  /* position: relative; */
+  /* padding: 20px; */
+  /* background-image: url(../images/macbook-frame.webp); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* left: 10%; */
+  /* top: 3%; */
+  left: 55px;
+  top: 10px;
+}
+
+.new {
+  /* margin-top: 20px; */
+  /* position: absolute; */
+}
+
+.new img {
+  /* width: 100px; */
+  /* height: 50%; */
+  /* width: 20%; */
+  /* margin-top: 20px; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* z-index: 1000; */
+}
+
+/* ************************************** */
+/* hiding scrollbar of inner img */
+/* ************************************** */
