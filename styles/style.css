@@ -81,7 +81,7 @@ html {
 /* set up the body  version 1*/
 body {
   font-family: "Roboto", sans-serif;
-  color: rgb(206, 206, 206);
+  color: #555;
   background-color: #031b3a;
   /* background-color: #ecf4fe; */
 }
@@ -164,16 +164,18 @@ header {
   font-size: 6rem;
   font-weight: 700;
   margin-top: 3.2rem;
+  color: #cccccc;
 }
 .title-text {
   font-size: 5.6rem;
   font-weight: 700;
   margin-bottom: 3.2rem;
-  color: #3cba5338;
+  color: #3cba5359;
 }
 
 .hero-description {
   font-size: 1.6rem;
+  line-height: 1.6;
   color: #b3b3b393;
   width: 60%;
   margin-bottom: 5.6rem;
@@ -221,9 +223,10 @@ header {
 }
 
 .skills-title {
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   font-weight: 500;
   text-align: center;
+  color: #cccccc;
 
   /* align-self: center; */
 }
@@ -253,4 +256,31 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+/* ************************************************* */
+/* Project Section */
+/* ************************************************* */
+
+.projects-section {
+  max-width: 130rem;
+  margin: 0 auto;
+  background-color: #021227;
+  padding-top: 3.2rem;
+}
+
+.projects-header {
+  max-width: 110rem;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+}
+
+.things-build-section {
+  max-width: 110rem;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+}
+
+.project-img {
+  width: 35%;
 }
