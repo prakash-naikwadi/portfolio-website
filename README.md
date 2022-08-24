@@ -1,6 +1,6 @@
 ## ⭐ Portfolio Website ⭐
 
-This is my Portfolio Website which consist of my **latest work and projects** and this portfolio is built using **HTML5 and CSS3**.
+This is my Portfolio Website which consist of my **latest work and projects** and this portfolio is built using **HTML5, CSS3 and Tailwind CSS**.
 
 ### 🛑 Website is still under construction
 
