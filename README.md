@@ -4,7 +4,7 @@ This is my Portfolio Website which consist of my **latest work and projects** an
 
 ### 🛑 Website is still under construction
 
-## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.github.io/portfolio-website/">**Visit Now** 🚀</a>
+## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.netlify.app/">**Visit Now** 🚀</a>
 
 <br>
 
