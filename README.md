@@ -1,6 +1,6 @@
 ## ⭐ Portfolio Website ⭐
 
-This is my Portfolio Website which consist of my **latest work and projects** and this portfolio is built using **HTML5, CSS3 and Tailwind CSS**.
+This is my Portfolio Website which consist of my **latest work, projects and blogs** and this portfolio is built using **HTML5, CSS3 and Tailwind CSS**.
 
 ## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.netlify.app/">**Visit Now** 🚀</a>
 
